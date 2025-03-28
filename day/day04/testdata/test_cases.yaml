@@ -1,0 +1,32 @@
+test_cross_mas:
+- result: true
+  input: |
+    M_M
+    _A_
+    S_S
+- result: true
+  input: |
+    S_S
+    _A_
+    M_M
+- result: true
+  input: |
+    M_S
+    _A_
+    M_S
+- result: true
+  input: |
+    S_M
+    _A_
+    S_M
+- result: false
+  input: |
+    A_M
+    _A_
+    S_S
+- result: false
+  input: |
+    S_M
+    _A_
+    S_S
+
